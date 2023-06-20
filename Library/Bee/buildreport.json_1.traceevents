@@ -1,0 +1,696 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1665059016502533, "dur": 586773, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665059016502732, "dur": 6092, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665059016508827, "dur": 566213, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665059017075042, "dur": 14263, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665059017089938, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1665059016524723, "dur":984, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059016525714, "dur":99, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1665059016525825, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1665059016525839, "dur":381, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1665059016526237, "dur":468, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059016526705, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017062703, "dur":148, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017062851, "dur":105, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017062956, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017062959, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017062970, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017062972, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017062976, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017062978, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017062982, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017062983, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017062988, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017062989, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017062993, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017062995, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063000, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063001, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063005, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063007, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063011, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063012, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063016, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063018, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063022, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063024, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063028, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063030, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063033, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063035, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063039, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063041, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063044, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063046, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063050, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063065, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017063087, "dur":1172, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1665059016526138, "dur":574, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016526713, "dur":3433, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016530152, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665059016530155, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016530212, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665059016530214, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016530325, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016531532, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665059016533499, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1665059016533529, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016533577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016533635, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1665059016534479, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1665059016534502, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016534532, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016534556, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1665059016536741, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016536778, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016536824, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016536860, "dur":18658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016555561, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016555603, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016555636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016555648, "dur":24071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016579757, "dur":32137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016611894, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016611926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016611935, "dur":53571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016665544, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016665577, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016665610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016665620, "dur":24619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016690274, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016690306, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016690333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016690343, "dur":31584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016721961, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016721997, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016722023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016722031, "dur":20951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016743024, "dur":77986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016821010, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016821078, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016821084, "dur":3354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016824465, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016824500, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016824578, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665059016824634, "dur":150105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665059016974763, "dur":87936, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016526164, "dur":558, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016526722, "dur":3427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016530152, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1665059016530250, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016530408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016542241, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1665059016543323, "dur":68504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665059016611828, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016611869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016611880, "dur":48933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665059016660844, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665059016660873, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016660897, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016660904, "dur":24272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665059016685213, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665059016685248, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016685277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016685287, "dur":23834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665059016709152, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665059016709182, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016709205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016709212, "dur":49589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665059016758833, "dur":43176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665059016802009, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016802058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016802066, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665059016804037, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665059016804066, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016804093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016804100, "dur":33292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665059016837425, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665059016837470, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016837500, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665059016837508, "dur":105133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665059016942666, "dur":120044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016526160, "dur":556, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016526716, "dur":3436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016530152, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1665059016530244, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016530403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016541887, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1665059016543072, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665059016543116, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016543143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016543151, "dur":83143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665059016626333, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665059016626365, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016626394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016626403, "dur":111688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665059016738120, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665059016738148, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016738173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016738179, "dur":37201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665059016775415, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665059016776041, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016776078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016776089, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665059016778513, "dur":20573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665059016799087, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016799133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016799140, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665059016800045, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665059016800074, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016800101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016800183, "dur":66307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665059016866517, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665059016866547, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016866570, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665059016866577, "dur":143191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665059017009790, "dur":52921, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016526188, "dur":538, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016526726, "dur":3429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016530158, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1665059016530237, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016530363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016535442, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1665059016611817, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665059016611865, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016611935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016611951, "dur":30026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665059016642124, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665059016642160, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016642186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016642197, "dur":35970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665059016678205, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665059016678234, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016678259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016678265, "dur":42630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665059016720926, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665059016720956, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016720980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016720988, "dur":95516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665059016816534, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665059016816568, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016816593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016816600, "dur":29064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665059016845694, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665059016845727, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016845753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665059016845762, "dur":86171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665059016931967, "dur":130756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016526213, "dur":518, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016526732, "dur":3415, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016530152, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1665059016530212, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016530254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016531919, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1665059016533583, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1665059016533606, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016533627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016533634, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1665059016534911, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller.exe" }}
+,{ "pid":12345, "tid":5, "ts":1665059016534946, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016534993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016534997, "dur":26120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller.exe" }}
+,{ "pid":12345, "tid":5, "ts":1665059016561157, "dur":50719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665059016611877, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016611916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016611925, "dur":20014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665059016631970, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665059016631999, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016632023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016632032, "dur":19382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665059016651442, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665059016651470, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016651495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016651501, "dur":40972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665059016692507, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665059016692538, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016692566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016692574, "dur":30655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665059016723260, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665059016723288, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016723312, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016723318, "dur":21229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665059016744575, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665059016744604, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016744629, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016744637, "dur":52395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665059016797066, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665059016797095, "dur":687, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016797788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665059016797796, "dur":121160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665059016918986, "dur":143722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016526237, "dur":499, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016526736, "dur":3417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016530154, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1665059016530214, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016530305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016531643, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1665059016533618, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016533643, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016533662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016533967, "dur":6351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016611824, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016611865, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016611912, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016611919, "dur":39438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016651394, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016651425, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016651451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016651460, "dur":41334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016692827, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016692858, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016692896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016692904, "dur":21037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016713980, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016714021, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016714052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016714063, "dur":32700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016746801, "dur":58769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016805570, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016805607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016805614, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016806715, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016806744, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016806769, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016806776, "dur":87551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016894359, "dur":71959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016966319, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016966369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665059016966377, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665059016967371, "dur":95346, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016526258, "dur":482, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016526740, "dur":3411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016530153, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1665059016530228, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016530358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016535003, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1665059016536269, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665059016536316, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016536357, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016536550, "dur":141087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665059016677670, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665059016677711, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016677743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016677752, "dur":20932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665059016698716, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665059016698746, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016698791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016698799, "dur":24226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665059016723065, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665059016723098, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016723125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016723134, "dur":19907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665059016743068, "dur":77752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665059016820821, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016820872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016820880, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665059016822131, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665059016822162, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016822190, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665059016822196, "dur":158984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665059016981208, "dur":81497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665059016526277, "dur":467, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665059016526744, "dur":3412, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665059016530156, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1665059016530234, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665059016530376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665059016535833, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1665059016612056, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665059016612114, "dur":927, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665059016613054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665059016613061, "dur":80659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665059016693757, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665059016693862, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665059016693898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665059016693905, "dur":38645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665059016732585, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665059016732618, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665059016732647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665059016732656, "dur":22669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665059016755357, "dur":175267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665059016930625, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665059016930655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665059016930662, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665059016931917, "dur":130798, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665059016526300, "dur":448, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665059016526748, "dur":3399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665059016530152, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1665059016530233, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665059016530378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665059016611809, "dur":14760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1665059016626602, "dur":130334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665059016756937, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665059016756981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665059016756990, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665059016758486, "dur":600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665059016759087, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665059016759122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665059016759131, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665059016760806, "dur":30363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665059016791170, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665059016791235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665059016791246, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665059016792445, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665059016792471, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665059016792495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665059016792501, "dur":79395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665059016871925, "dur":105243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665059016977169, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665059016977209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665059016977235, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665059016978074, "dur":84627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016526314, "dur":438, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016526752, "dur":3398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016530152, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1665059016530243, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016530399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016537506, "dur":75268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1665059016612808, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665059016612843, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016612869, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016612875, "dur":20278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665059016633182, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665059016633210, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016633234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016633241, "dur":44444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665059016677715, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665059016677746, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016677771, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016677777, "dur":22475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665059016700288, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665059016700318, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016700341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016700348, "dur":25083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665059016725471, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665059016725502, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016725531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016725540, "dur":49456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665059016775029, "dur":40781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665059016815811, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016815859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016815870, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665059016816840, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665059016816873, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016816903, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665059016816909, "dur":163022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665059016979961, "dur":82768, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016526341, "dur":415, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016526756, "dur":3402, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016530158, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1665059016530217, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016530350, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016532219, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1665059016533600, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016533626, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016533646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016534001, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016535415, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1665059016535449, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016535483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016535726, "dur":5368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1665059016541130, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016541175, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016541203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016541216, "dur":32087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016573334, "dur":38562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016611897, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016611927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016611934, "dur":54736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016666702, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016666733, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016666758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016666766, "dur":20588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016687387, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016687418, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016687445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016687454, "dur":42790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016730280, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016730312, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016730365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016730376, "dur":31284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016761697, "dur":29471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016791169, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016791236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016791246, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016792736, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016792781, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016792817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665059016792822, "dur":129640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665059016922500, "dur":140213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016526361, "dur":398, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016526759, "dur":3395, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016530155, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1665059016530297, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016530431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016546259, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1665059016547255, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016547294, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016547323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016547332, "dur":14528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016561884, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016561909, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016561930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016561937, "dur":51828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016613794, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016613824, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016613849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016613856, "dur":46803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016660694, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016660723, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016660747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016660754, "dur":29533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016690318, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016690352, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016690381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016690412, "dur":20603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016711055, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016711085, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016711127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016711137, "dur":26834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016738000, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016738030, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016738067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016738077, "dur":103815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016841924, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016841953, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016841983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665059016841992, "dur":88507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665059016930536, "dur":132168, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016526377, "dur":386, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016526763, "dur":3394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016530157, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1665059016530211, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016530269, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016531370, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1665059016533565, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1665059016533589, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016533605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016533609, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1665059016534354, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016534380, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016534397, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016534400, "dur":78007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016612561, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016612608, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016612748, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016612756, "dur":55892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016668679, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016668711, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016668758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016668767, "dur":31077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016699875, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016699904, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016699930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016699938, "dur":19430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016719404, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016719438, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016719471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016719484, "dur":18603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016738141, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016738173, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016738229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016738235, "dur":38036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016776303, "dur":20510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016796814, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016796864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016796874, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016798431, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016798459, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016798483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016798489, "dur":60803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016859324, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016859361, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016859415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016859425, "dur":38849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665059016898306, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":13, "ts":1665059016898407, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016898446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016898918, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":13, "ts":1665059016899669, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1665059016899728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016899786, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1665059016900769, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":13, "ts":1665059016900801, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016900807, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":13, "ts":1665059016901724, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1665059016901756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016901762, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1665059016903170, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1665059016903202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016903209, "dur":2792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1665059016906219, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":13, "ts":1665059016906332, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016906362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016906369, "dur":760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":13, "ts":1665059016907154, "dur":661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1665059016907816, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016907868, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016907875, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1665059016908742, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1665059016908775, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016908781, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1665059016910652, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1665059016910686, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016910692, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1665059016912332, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/level1.resS" }}
+,{ "pid":12345, "tid":13, "ts":1665059016912364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016912371, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/level1.resS" }}
+,{ "pid":12345, "tid":13, "ts":1665059016913399, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1665059016913431, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016913437, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1665059016914270, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1665059016914301, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016914306, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1665059016915099, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1665059016915129, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016915134, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1665059016915882, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1665059016915923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016915929, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1665059016917049, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1665059016917081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016917088, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1665059016917878, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/boot.config" }}
+,{ "pid":12345, "tid":13, "ts":1665059016917964, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016917990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665059016917997, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/boot.config" }}
+,{ "pid":12345, "tid":13, "ts":1665059016919107, "dur":143596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016526401, "dur":365, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016526766, "dur":3404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016530170, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1665059016530243, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016530398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016536652, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1665059016611820, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016611867, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016611955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016612076, "dur":19838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016632175, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016632220, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016632250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016632257, "dur":45767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016678066, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016678100, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016678128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016678134, "dur":36619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016714791, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016714825, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016714851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016714858, "dur":24070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016738957, "dur":37770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016776727, "dur":933, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016777667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016777674, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016779444, "dur":623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016780067, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016780116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016780123, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016781166, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016781193, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016781215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016781220, "dur":51109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016832359, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016832391, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016832419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016832449, "dur":32738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016865222, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059016865255, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016865283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665059016865291, "dur":197356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665059017062671, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":14, "ts":1665059017062673, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016526416, "dur":354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016526770, "dur":3388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016530159, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1665059016530247, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016530400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016537156, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1665059016538696, "dur":73121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016611818, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016611872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016611881, "dur":23713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016635626, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016635662, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016635712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016635723, "dur":73133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016708890, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016708920, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016708945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016708953, "dur":28175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016737167, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016737206, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016737264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016737275, "dur":37700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016775007, "dur":1067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016776074, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016776104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016776111, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016778069, "dur":791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016778860, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016778893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016778901, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016779802, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016779835, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016779861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016779868, "dur":73828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016853727, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016853756, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016853781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665059016853790, "dur":89060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665059016942881, "dur":119826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016526435, "dur":338, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016526773, "dur":3386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016530160, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1665059016530277, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016530434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016545821, "dur":67048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1665059016612905, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665059016612939, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016612962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016612968, "dur":26893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665059016639895, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665059016639933, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016639963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016639974, "dur":35998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665059016676008, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665059016676042, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016676098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016676111, "dur":21336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665059016697483, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665059016697517, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016697809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016697819, "dur":78043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665059016775890, "dur":1011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665059016776901, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016777182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016777189, "dur":3080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665059016780301, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665059016780334, "dur":504, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016780843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665059016780851, "dur":180152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Coding/Game-dev/Unity/Builds/3D-Sidescroller-1/3D Sidescroller_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665059016961027, "dur":101674, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665059017065636, "dur":1544, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1665059017090013, "dur": 641, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665059017089926, "dur": 749, "ph": "X", "name": "Write chrome-trace events", "args": {} },
